@@ -1,0 +1,6 @@
+// migrations/2_deploy_relayer_contract.js
+const RelayerContract = artifacts.require("RelayerContract");
+
+module.exports = function(deployer) {
+    deployer.deploy(RelayerContract);
+};
